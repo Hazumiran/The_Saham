@@ -1,6 +1,0 @@
-fer==22.5.0
-matplotlib==3.6.3
-Requests==2.30.0
-streamlit==1.17.0
-streamlit_lottie==0.0.3
-streamlit_option_menu==0.3.4
