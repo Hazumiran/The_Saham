@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 # from fer import Video
-# from fer import FER
+# from fer import FERS
 # import os
 # import tempfile
 
@@ -32,7 +32,7 @@ st.title("Challenges in Representation Learning: A report on three machine learn
 uploaded_file = st.file_uploader(
     "Silahkan Upload Video disini", type=["mp4", "mkv", "mov"], accept_multiple_files=False)
 
-# st.video(uploaded_file)
+st.video(uploaded_file)
 
 # if uploaded_file is None:
 #     st.warning("Please upload a video file.")
