@@ -5,3 +5,4 @@ streamlit==1.17.0
 streamlit_lottie==0.0.3
 streamlit_option_menu==0.3.4
 moviepy==1.0.3
+altair==5.0.0
