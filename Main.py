@@ -2,7 +2,7 @@ import cv2
 import streamlit as st
 from streamlit_option_menu import option_menu
 # from fer import Video
-from fer import FER
+# from fer import FER
 import os
 import tempfile
 
