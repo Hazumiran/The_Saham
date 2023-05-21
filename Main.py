@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from fer import Video
+from fer.classes import Video
 from fer import FER
 import os
 import tempfile
@@ -23,7 +23,6 @@ selected = option_menu(
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
-
 )
 
 # Menambahkan judul dan deskripsi
