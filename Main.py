@@ -27,10 +27,10 @@ selected = option_menu(
 )
 
 # Menambahkan judul dan deskripsi
-# st.title("Challenges in Representation Learning: A report on three machine learning contests")
+st.title("Challenges in Representation Learning: A report on three machine learning contests")
 
-# uploaded_file = st.file_uploader(
-#     "Silahkan Upload Video disini", type=["mp4", "mkv", "mov"], accept_multiple_files=False)
+uploaded_file = st.file_uploader(
+    "Silahkan Upload Video disini", type=["mp4", "mkv", "mov"], accept_multiple_files=False)
 
 # st.video(uploaded_file)
 
